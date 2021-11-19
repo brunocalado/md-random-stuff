@@ -28,7 +28,7 @@
       "audio": {
         "file": "modules/md-random-stuff/stuff/tencandles/wind_harsh_mountain_02_30_loop.ogg",
         "delay": 0,
-        "volume": 0.25
+        "volume": 0.15
       },
       "backgroundEffect": {
         "delay": 0,

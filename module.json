@@ -3,7 +3,7 @@
   "title": "MD - Random Stuff",
   "description": "Foundry VTT aplications for use and demonstration.",   
   "author": "Mestre Digital",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion":"0.8.9",
   "scripts": [
@@ -42,28 +42,23 @@
   "dependencies": [
     {
       "type": "module",
-      "name": "sequencer",
-      "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/manifest.json"
+      "name": "sequencer"
     },
     {
       "type": "module",
-      "name": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+      "name": "compendium-folders"
     },
     {
       "type": "module",
-      "name": "danger-zone",
-      "manifest": "https://raw.githubusercontent.com/napolitanod/Danger-Zone/master/module.json"
+      "name": "danger-zone"
     },
     {
       "type": "module",
-      "name": "tagger",
-      "manifest": "https://github.com/Haxxer/FoundryVTT-Tagger/releases/latest/download/module.json"
+      "name": "tagger"
     },
     {
       "type": "module",
-      "name": "lib-wrapper",
-      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+      "name": "lib-wrapper"
     }           
   ],
   
