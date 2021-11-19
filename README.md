@@ -8,6 +8,9 @@ Aplicações do Foundry VTT para uso e demonstração.
 Foundry VTT aplications for use and demonstration.
 ```
 
+# Instalação
+Manifesto:  https://raw.githubusercontent.com/brunocalado/md-random-stuff/main/module.json
+
 # Lista de Coisas
 `Leia os registros dentro do módulo!`
 
