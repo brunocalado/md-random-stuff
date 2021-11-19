@@ -75,7 +75,7 @@
       },
       "foregroundEffect": {
         "delay": 0,
-        "file": "tencandles/WindStreams_01_White_20OPA_1200x1200.webm",
+        "file": "modules/md-random-stuff/stuff/tencandles/WindStreams_01_White_20OPA_1200x1200.webm",
         "scale": 8,
         "repeat": 0,
         "duration": 3500
