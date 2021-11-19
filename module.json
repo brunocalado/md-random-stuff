@@ -1,0 +1,74 @@
+{   
+  "name": "md-random-stuff",   
+  "title": "MD - Random Stuff",
+  "description": "Foundry VTT aplications for use and demonstration.",   
+  "author": "Mestre Digital",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion":"0.8.9",
+  "scripts": [
+      "./scripts/api.js"
+  ],  
+  "packs": [
+    {
+      "label": "Cenas do MD",
+      "entity": "Scene",
+      "name": "cenas-do-md",
+      "path": "packs/cenas-do-md.db",
+      "module": "md-random-stuff"
+    },
+    {
+      "label": "Macros do MD",
+      "entity": "Macro",
+      "name": "macros-do-md",
+      "path": "packs/macros-do-md.db",
+      "module": "md-random-stuff"
+    },
+    {
+      "label": "Macros do MD - Auto Atualiza",
+      "entity": "Macro",
+      "name": "macros-do-md-auto-atualiza",
+      "path": "packs/macros-do-md-auto-atualiza.db",
+      "module": "md-random-stuff"
+    },
+    {
+      "label": "Documentação do MD",
+      "entity": "JournalEntry",
+      "name": "documentacao-do-md",
+      "path": "packs/documentacao-do-md.db",
+      "module": "md-random-stuff"
+    }      
+  ],
+  "dependencies": [
+    {
+      "type": "module",
+      "name": "sequencer",
+      "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/manifest.json"
+    },
+    {
+      "type": "module",
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+    },
+    {
+      "type": "module",
+      "name": "danger-zone",
+      "manifest": "https://raw.githubusercontent.com/napolitanod/Danger-Zone/master/module.json"
+    },
+    {
+      "type": "module",
+      "name": "tagger",
+      "manifest": "https://github.com/Haxxer/FoundryVTT-Tagger/releases/latest/download/module.json"
+    }          
+  ],
+  
+  "url": "https://github.com/brunocalado/md-random-stuff",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/md-random-stuff/main/module.json",  
+  "download": "https://codeload.github.com/brunocalado/md-random-stuff/zip/main",
+  
+  "bugs": "https://github.com/brunocalado/md-random-stuff/issues",
+  "flags": {
+    "allowBugReporter": true
+  }  
+  
+}

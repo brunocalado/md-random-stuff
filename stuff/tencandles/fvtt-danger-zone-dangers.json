@@ -1,0 +1,98 @@
+{
+  "suqnfxac3einuay2": {
+    "dimensions": {
+      "units": {
+        "w": 1,
+        "h": 1,
+        "d": 1
+      }
+    },
+    "icon": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
+    "id": "suqnfxac3einuay2",
+    "name": "Vento",
+    "options": {
+      "ambientLight": {
+        "active": 0,
+        "angle": 360,
+        "bright": 0,
+        "dim": 0,
+        "lightAnimation": {
+          "speed": 5,
+          "intensity": 5,
+          "type": ""
+        },
+        "rotation": 0,
+        "tintColor": "",
+        "tintAlpha": 0.5
+      },
+      "audio": {
+        "file": "modules/md-random-stuff/stuff/tencandles/wind_harsh_mountain_02_30_loop.ogg",
+        "delay": 0,
+        "volume": 0.25
+      },
+      "backgroundEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "repeat": 0,
+        "duration": 30
+      },
+      "effect": {},
+      "flags": {
+        "fluidCanvas": {
+          "type": "drug",
+          "delay": null,
+          "intensity": 1,
+          "iteration": 3,
+          "duration": 3500
+        },
+        "monks-active-tiles": {
+          "macro": {
+            "macroid": "",
+            "args": "",
+            "after": null
+          },
+          "teleport": {
+            "add": false,
+            "twin": false,
+            "source": false,
+            "pan": false,
+            "avoid": false
+          }
+        },
+        "tokenSays": {
+          "fileType": "",
+          "compendiumName": "",
+          "fileName": "",
+          "fileTitle": ""
+        },
+        "warpgate": {
+          "actor": "",
+          "isRolltable": false,
+          "duplicates": null,
+          "delay": null
+        }
+      },
+      "foregroundEffect": {
+        "delay": 0,
+        "file": "tencandles/WindStreams_01_White_20OPA_1200x1200.webm",
+        "scale": 8,
+        "repeat": 0,
+        "duration": 3500
+      },
+      "lastingEffect": {
+        "delay": 0,
+        "file": "",
+        "scale": 1,
+        "loop": true
+      },
+      "tokenEffect": {
+        "delay": 0,
+        "duration": 0,
+        "file": "",
+        "scale": 1
+      },
+      "macro": "oWgyfTyH3LgIuXPU"
+    }
+  }
+}
