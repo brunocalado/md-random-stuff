@@ -1,6 +1,6 @@
 const candleOn = 'modules/md-random-stuff/stuff/tencandles/vela-1-acesa_VP8.webm';
 const candleBlowingOut = 'modules/md-random-stuff/stuff/tencandles/vela-2-apagando_VP8.webm';
-const candleOff = 'modules/md-random-stuff/stuff/tencandles/vela-3-apagada_VP8.webm';
+const candleOff = 'modules/md-random-stuff/stuff/tencandles/vela-3-apagada_VP8.png';
 const timeToBlowOut = 5000; // 5 secs - animation time - don't mess with it unless you know what you are doing.
 const probability = 1;
 
@@ -22,7 +22,7 @@ status_c = off
 */
 
 main();
-const version = 'v0.1';
+const version = 'v0.2';
 
 async function main() {  
   let candles = await Tagger.getByTag('status_a'); // Select all burning candles 

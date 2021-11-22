@@ -1,3 +1,6 @@
+# 0.0.5
+- Ten Candles Animation animação melhor
+
 # 0.0.4
 Ten Candles Animation fix
 

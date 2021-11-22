@@ -21,6 +21,10 @@ Manifesto:  https://raw.githubusercontent.com/brunocalado/md-random-stuff/main/m
 
 - Ten Candles Animation to simulate the candles.
 
+# Agradecimentos
+
+- [Dados Críticos - Teuri] (https://www.youtube.com/channel/UClZr8ml8EIEK8W89renberQ)
+
 # License
 Code license at [LICENSE](LICENSE).
 
