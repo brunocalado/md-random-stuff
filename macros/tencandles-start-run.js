@@ -1,5 +1,5 @@
 // Press F5 to stop
-const timeToTryToBlowOut = 10000; // 10 secs
+const timeToTryToBlowOut = game.settings.get("md-random-stuff", "timetoblowcandle"); // 10 secs
 
 /*
 icon: icons/magic/time/clock-stopwatch-white-blue.webp

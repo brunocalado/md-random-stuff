@@ -2,16 +2,10 @@ const candleOn = 'modules/md-random-stuff/stuff/tencandles/vela-1-acesa_VP8.webm
 const candleBlowingOut = 'modules/md-random-stuff/stuff/tencandles/vela-2-apagando_VP8.webm';
 const candleOff = 'modules/md-random-stuff/stuff/tencandles/vela-3-apagada_VP8.png';
 const timeToBlowOut = 5000; // 5 secs - animation time - don't mess with it unless you know what you are doing.
-const probability = game.settings.get("md-random-stuff", "chancetoblowcandle");
 
-/*
+/* APAGA UMA VELA
 icon: icons/sundries/lights/candle-pillar-lit-yellow.webp
 
-//game.Gametime.doEvery({seconds:10}, "TestMacro"); // start to run
-//game.Gametime.flushQueue(); // stop to run
-
-const currentSceneID = game.scenes.current.id;
-dangerZone.triggerZone('Vento', currentSceneID)
 */
 
 /*
@@ -22,14 +16,14 @@ status_c = off
 */
 
 main();
-const version = 'v0.4';
+const version = 'v0.1';
 
 async function main() {  
   let candles = await Tagger.getByTag('status_a'); // Select all burning candles 
   let selectedCandle = candles[getRandom(0,candles.length-1)];
   let candles_on = candles.length;
   
-  if ( (candles.length>0) && shouldTheCandleDie(probability) ) { //avoid error    
+  if ( (candles.length>0) ) { //avoid error    
     changeCandleStatusToOff( Tagger.getTags(selectedCandle) ); // turn off the candle
 
     let message1 = `Haviam dez.`;
@@ -67,10 +61,5 @@ function getRandom(min, max) { // return between min and max
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function shouldTheCandleDie(probability) {  
-  if ( probability>=Math.random() ) {
-    return true;
-  } else {
-    return false;
-  }
-}
+
+

@@ -5,10 +5,10 @@ const candleOff = 'modules/md-random-stuff/stuff/tencandles/vela-3-apagada_VP8.p
 /*
 icon: icons/sundries/lights/torch-brown-lit.webp
 */
-const version = 'v0.2';
+const version = 'v0.3';
 
 async function restoreAllCandles() {
-  let candles = await Tagger.getByTag('status_c');  
+  const candles = await Tagger.getByTag('candle');  
   for (let candle of candles) {
     await candle.document.update({img: candleOn});
     await Tagger.removeTags(candle, 'status_c');
@@ -18,3 +18,4 @@ async function restoreAllCandles() {
 }
 
 restoreAllCandles();
+

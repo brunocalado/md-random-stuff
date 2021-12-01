@@ -1,3 +1,7 @@
+# 0.0.7
+- 2 macros for turn on//off ten candles
+- settings for ten candles 
+
 # 0.0.6
 - Ten Candles Animation animação fix
 
