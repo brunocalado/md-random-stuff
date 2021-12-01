@@ -1,3 +1,6 @@
+# 0.0.8
+- docs
+
 # 0.0.7
 - 2 macros for turn on//off ten candles
 - settings for ten candles 
