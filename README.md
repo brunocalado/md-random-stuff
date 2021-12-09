@@ -15,11 +15,14 @@ Manifesto:  https://raw.githubusercontent.com/brunocalado/md-random-stuff/main/m
 `Leia os registros dentro do módulo!`
 
 - Animação para simular as velas do RPG Ten Candles.
+- Mapa modelado do 2D para o 3D. (Ruined Shrine Desert Canyon)
 
 # Stuff List
 `Read the journals inside the module!`
 
+- Ruined Shrine Desert Canyon 3D
 - Ten Candles Animation to simulate the candles.
+
 
 # Agradecimentos
 
