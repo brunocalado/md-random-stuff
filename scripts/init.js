@@ -15,7 +15,7 @@ Hooks.once('init', function() {
   
   // call this with: game.settings.get("md-random-stuff", "chancetoblowcandle")
   game.settings.register('md-random-stuff', 'chancetoblowcandle', {
-    name: 'Ten Candles - Wind Cycle Time',
+    name: 'Ten Candles - Probability',
     hint: 'This number is the chance of blow the candle. 0.05 is igual to 5%.',
     scope: 'world',
     config: true,

@@ -3,9 +3,9 @@
   "title": "MD - Random Stuff",
   "description": "Foundry VTT aplications for use and demonstration.",   
   "author": "Mestre Digital",
-  "version": "0.0.9",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion":"0.8.9",
+  "version": "0.1.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion":"9",
   "scripts": [
       "./scripts/api.js",
       "./scripts/init.js"

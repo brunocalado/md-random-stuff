@@ -15,7 +15,7 @@ status_c = off
 */
 
 main();
-const version = 'v0.1';
+const version = 'v0.2';
 
 async function main() {  
   let candles = await Tagger.getByTag('status_c'); // Select all burning candles 
@@ -40,14 +40,13 @@ async function main() {
 async function changeCandleStatusToOn(candleTag) {
   let candle = await Tagger.getByTag(candleTag);  
   
-  await Tagger.removeTags(candle[0], 'status_c');
-  await Tagger.removeTags(candle[0], 'status_a');
+  await Tagger.removeTags(candle[0], ['status_a', 'status_c'] );
   await Tagger.addTags(candle[0], 'status_a'); 
   
   new Sequence()
     .wait(1500)
     .thenDo(async() => { 
-      await candle[0].document.update({img: candleOn});
+      await candle[0].update({img: candleOn});
     })  
     .play()  
 }
