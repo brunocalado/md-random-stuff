@@ -5,7 +5,7 @@ Aplicações do Foundry VTT para uso e demonstração.
 ```
 
 ```
-Foundry VTT aplications for use and demonstration.
+Foundry VTT applications for use and demonstration.
 ```
 
 # Instalação
