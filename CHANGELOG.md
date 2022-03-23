@@ -1,3 +1,7 @@
+# 0.1.1
+- auto update macro fix
+- sokoban
+
 # 0.1.0
 - arsenal
 
