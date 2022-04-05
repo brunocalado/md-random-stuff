@@ -1,3 +1,6 @@
+# 0.1.2
+- lasers test
+
 # 0.1.1
 - auto update macro fix
 - sokoban
