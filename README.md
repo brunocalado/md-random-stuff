@@ -18,6 +18,7 @@ Manifesto:  https://raw.githubusercontent.com/brunocalado/md-random-stuff/main/m
 - Mapa modelado do 2D para o 3D. (Ruined Shrine Desert Canyon)
 - Arsenal de armas em 3D.
 - Sokoban
+- Templo das Notas Musicais
 
 # Stuff List
 `Read the journals inside the module!`
@@ -26,6 +27,7 @@ Manifesto:  https://raw.githubusercontent.com/brunocalado/md-random-stuff/main/m
 - Ten Candles Animation to simulate the candles.
 - Arsenal. 3D Weapons.
 - Sokoban
+- Musical Notes Temple
 
 
 # Agradecimentos

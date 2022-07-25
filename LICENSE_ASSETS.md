@@ -26,3 +26,10 @@
 # Dungeon Alchemist Maps
 
 - https://creativecommons.org/licenses/by/4.0/
+
+# Musical Notes Temple
+
+- The sound files are under: https://creativecommons.org/licenses/by-nc-nd/4.0/
+- The maps are Dungeon Alchemist.
+- Portal_Vortex_Purple_V_400x300.webm, Sharp_01_Regular_Green_200x200.webm, Sharp_01_Regular_Purple_200x200.webm, TemplateMusicNoteSquare_01_Regular_Purple_600x600.webm, TrebleClef_01_Regular_Orange_200x200.webm, Flat_01_Regular_Orange_200x200.webm, BeamedQuavers_01_Regular_Purple_200x200.webm, BassClef_01_Regular_Blue_200x200.webm -> JB2A Patreon https://creativecommons.org/licenses/by-nc-sa/4.0/
+- numbers: https://game-icons.net/
